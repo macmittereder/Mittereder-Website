@@ -1,0 +1,36 @@
+doctype html
+
+html
+    head
+        title= title
+        block css
+            link(rel='stylesheet' type='text/css' href='/css/main.css')
+
+    body
+        //- Navigation Bar
+        a(href="/")
+            img(src="/images/icons/fixedlogo.png" class="logoimage")
+
+        ul.topnav
+            div.center
+                li
+                    a(href="https://github.com/macmittereder")
+                        span(style="font-size:30px").octicon.octicon-mark-github
+                li
+                    a(href="/projects")
+                        span(style="font-size:30px").octicon.octicon-repo
+                li
+                    a(href="/")
+                        span(style="font-size:30px").octicon.octicon-home
+
+        block content
+
+
+    footer
+        block footer
+            script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+            script(src="/js/bootstrap/bootstrap.min.js")
+            script(src="/js/material/material.min.js")
+
+        hr
+        address= "Copyright 2018 All Rights Reserved www.mittereder.com"
