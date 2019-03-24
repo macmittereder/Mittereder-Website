@@ -1,6 +1,6 @@
 .logoimage {
-  height: 125px;
-	width: 125px;
+  height: 70px;
+	width: 70px;
 	position: absolute;
 	float: left;
 	margin-left: 20px;
@@ -13,7 +13,7 @@ ul.topnav {
   list-style-type: none;
 	text-align: center;
 	width: 100%;
-	height: 100px;
+	height: 50px;
 	margin-top: 0px;
   margin: 0;
   padding: 0;
@@ -27,5 +27,10 @@ ul.topnav {
     &.icon {
       display: none;
     }
+  }
+
+  &.octicon {
+    font-size: 10px !important;
+    margin: 0 !important;
   }
 }

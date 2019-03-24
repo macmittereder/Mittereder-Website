@@ -1,12 +1,11 @@
 ul.topnav li a {
   display: inline-block;
   color: $primary-text-color;
-	margin-top: 20px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   transition: 0.3s;
-  font-size: 30px;
+  margin-top: -5px;
 
   &:hover {
     background-color: $secondary-color;
