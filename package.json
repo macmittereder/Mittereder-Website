@@ -16,6 +16,7 @@
     "media-typer": "^0.3.0",
     "node-sass": "^4.11.0",
     "nodemon": "^1.18.10",
+    "octicons": "^3.5.0",
     "pug": "^2.0.3"
   }
 }
